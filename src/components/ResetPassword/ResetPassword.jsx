@@ -47,7 +47,7 @@ function ResetPassword() {
           )}
         </div>
 
-        <div className="fw-bold fs-4 mt-3 mb-3 d-flex gap-3 align-content-center align-items-center">
+        <div className="fw-bold rssp fs-4 mt-3 mb-3 d-flex gap-3 align-content-center align-items-center">
           <i class="fa-solid fa-key fcolor"></i>
           <div className="fcolor">Reset Password</div>
         </div>

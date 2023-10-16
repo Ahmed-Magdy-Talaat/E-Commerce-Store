@@ -36,8 +36,7 @@ function SignIn() {
   });
   return (
     <>
-      <Helmet>SignIn</Helmet>
-      <div className="container col-12 col-md-8 col-lg-5 mt-5 rssp ">
+      <div className="container col-12 col-md-8 col-lg-5 mt-5  ">
         <div className=" d-flex flex-column justify-content-center align-items-center align-content-center ">
           {err && (
             <div className="alert text-center py-1 w-100  alert-danger">
@@ -45,7 +44,7 @@ function SignIn() {
             </div>
           )}
           <form
-            className="mt-1 mb-3  container w-100 d-flex flex-column"
+            className="mt-2 mb-3 rssp py-2 container w-100 d-flex flex-column"
             onSubmit={formik.handleSubmit}
           >
             <div className="fw-bold fs-4 mt-3 mb-3 d-flex gap-3 align-content-center align-items-center">

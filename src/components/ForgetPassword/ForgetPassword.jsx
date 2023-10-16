@@ -72,7 +72,7 @@ function ForgetPassword() {
     <div className="container col-12 col-md-8 col-lg-5  mt-5 mt-5">
       <div className=" d-flex flex-column justify-content-center align-items-center align-content-center ">
         <form
-          className="mt-1 mb-3  container w-100 d-flex flex-column forgetPass"
+          className="mt-1 mb-3 rssp container w-100 d-flex flex-column forgetPass"
           onSubmit={formik.handleSubmit}
         >
           <div className="fw-bold fs-4 mt-3 mb-3 d-flex gap-3 align-content-center align-items-center">
@@ -121,7 +121,7 @@ function ForgetPassword() {
         </form>
 
         <form
-          className="mt-1 mb-3  container w-75 d-flex flex-column verifyCode d-none"
+          className="mt-1 mb-3 rssp container w-75 d-flex flex-column verifyCode d-none"
           onSubmit={verifyFormik.handleSubmit}
         >
           {codeError !== "" && (
