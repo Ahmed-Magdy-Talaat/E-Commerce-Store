@@ -1,0 +1,20 @@
+.image {
+  height: 280px;
+}
+
+.cat {
+  transition: transform 0.5s ease-in-out;
+  transform: translateY(100%); /* Initially hidden below */
+  opacity: 0;
+  font-weight: bold;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.contain:hover .cat {
+  transform: translateY(0);
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  top: 0%;
+}

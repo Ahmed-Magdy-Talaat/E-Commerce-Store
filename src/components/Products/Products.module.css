@@ -1,0 +1,22 @@
+.w90 {
+  width: 85%;
+}
+.product {
+  border: 1px white solid;
+}
+.product:hover {
+  border: 1px #1cd41c solid;
+}
+.fsl {
+  font-size: 18px;
+}
+.product .butn {
+  opacity: 0;
+  transition: transform 1s, opacity 1s !important;
+  transform: translateY(100%) !important;
+  background-color: #1cd41c;
+}
+.product:hover .butn {
+  opacity: 1;
+  transform: translateY(0%);
+}

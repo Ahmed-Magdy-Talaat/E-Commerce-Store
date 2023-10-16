@@ -1,0 +1,14 @@
+.imgMain {
+  height: 440px;
+}
+.imgContain {
+  height: 220px;
+}
+@media screen and (max-width: 600px) {
+  .imgMain {
+    height: 200px;
+  }
+  .imgContain {
+    height: 100px;
+  }
+}

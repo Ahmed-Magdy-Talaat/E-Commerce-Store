@@ -1,0 +1,81 @@
+.fab {
+  font-size: 20px;
+  cursor: pointer;
+}
+.fcolor {
+  color: #1cd41c !important;
+}
+.btn-1 {
+  background-color: #1cd41c;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  width: 110px;
+  border: 0px;
+}
+form {
+  font-size: 18px;
+}
+.btn {
+  background-color: #1cd41c !important;
+  color: white !important;
+  border-color: #1cd41c !important;
+}
+span {
+  cursor: pointer;
+}
+.cur-pointer {
+  cursor: pointer;
+}
+.star-color {
+  color: gold;
+}
+.btn {
+  background-color: #1cd41c;
+  color: white;
+}
+.bgColor {
+  background-color: #e8e5e5;
+}
+
+.wifi {
+  position: sticky;
+  top: 15%;
+  display: flex;
+  justify-content: center;
+  /* z-index: 1000; */
+  left: 1%;
+  background-color: #e8e5e5;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+.contain-style {
+  background-color: rgb(222, 225, 228);
+}
+.heart {
+  color: green;
+}
+
+.rssp {
+  background-color: #f8f9fa;
+  border-radius: 30px;
+}
+
+.foter {
+  background-color: #f8f9fa;
+}
+.face {
+  color: blue;
+}
+.insta {
+  color: violet;
+}
+.x {
+  color: #3390ec;
+}

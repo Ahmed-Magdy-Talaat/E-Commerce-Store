@@ -1,0 +1,8 @@
+.imgMain {
+  height: 220px;
+}
+@media screen and (max-width: 600px) {
+  .imgMain {
+    height: 150px;
+  }
+}
