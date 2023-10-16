@@ -9,8 +9,8 @@ function footer() {
           <div className="text-muted">
             We will send you an Email with a link to Download Our App
           </div>
-          <div className="d-flex mt-2 flex-row justify-content-between align-content-center ">
-            <div className="col-9">
+          <div className="d-flex mt-2 flex-column gap-2 flex-md-row justify-content-between align-content-center ">
+            <div className="col-11 col-md-9">
               <input
                 name="email"
                 type="text"
@@ -18,10 +18,10 @@ function footer() {
                 placeholder="email us"
               />
             </div>
-            <div className="btn fs-5 col-2">Share App</div>
+            <div className="btn fs-6 fs-md-5 col-5 col-md-2">Share App</div>
           </div>
         </div>
-        <div className="d-flex flex-row gap-3 align-content-center align-items-center mt-2">
+        <div className="d-flex flex-column flex-md-row gap-3 align-content-center align-items-center mt-2">
           <div className="fs-5 fcolor rounded-5">
             Contact Us on Our Social Media
           </div>
@@ -32,8 +32,8 @@ function footer() {
             <i className="fs-4 fab mx-2  fa-whatsapp fcolor" />
           </div>
         </div>
-        <div className="fs-6 text-muted mt-2">
-          all copyrights preserved by Ahmed Magdy @2023
+        <div className="fs-6 mt-3 text-muted">
+          All copyrights preserved by Ahmed Magdy @2023
         </div>
       </div>
     </div>
